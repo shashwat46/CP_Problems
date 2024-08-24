@@ -1,0 +1,21 @@
+# Ignore everything
+*
+
+# But not these files
+!.gitignore
+!*.cpp
+
+# Optionally include directories if needed
+!*/
+
+# Ignore specific build directories or files if they exist
+build/
+bin/
+obj/
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.log
+*.tmp
